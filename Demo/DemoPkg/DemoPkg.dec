@@ -1,0 +1,10 @@
+Ini, TOML
+
+[Defines]
+  DEC_SPECIFICATION              = 0x00010005
+  PACKAGE_NAME                   = DemoPkg
+  PACKAGE_GUID                   = a1b2c3d4-e5f6-7890-1234-56789abcdef0
+  PACKAGE_VERSION                = 0.1
+
+[Includes]
+  Include

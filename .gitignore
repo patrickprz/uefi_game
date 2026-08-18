@@ -1,0 +1,72 @@
+# ==========================================
+# EDK2 / UEFI / TianoCore Build Outputs
+# ==========================================
+# Build folders
+Build/
+build/
+Conf/
+
+# Logs and EDK2 temp files
+*.log
+*.wrn
+*.err
+*.txt
+!CMakeLists.txt
+
+# Intermeadiate EDK files
+/edk2/BaseTools/Source/C/bin/
+/edk2/BaseTools/Source/C/obj/
+/edk2/BaseTools/Source/C/libs/
+
+# ==========================================
+# C / C++ Output Files
+# ==========================================
+# Objects and libraries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Binaries and exes
+*.efi
+*.elf
+*.bin
+#*.fd
+*.rom
+
+# ==========================================
+# IDEs
+# ==========================================
+#.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+#!.vscode/c_cpp_properties.json
+!.vscode/settings.json
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Visual Studio (MSVC)
+.vs/
+*.vcxproj.user
+
+# ==========================================
+# Emulators
+# ==========================================
+*.img
+*.qcow2
+*.iso
+iso_root/
+nvram.bin
+
+# ==========================================
+# OS
+# ==========================================
+.DS_Store
+Thumbs.db
+*~
+*.swp
