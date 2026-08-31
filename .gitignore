@@ -31,7 +31,7 @@ Conf/
 *.dll
 
 # Binaries and exes
-*.efi
+#*.efi
 *.elf
 *.bin
 #*.fd
